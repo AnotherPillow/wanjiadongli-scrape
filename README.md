@@ -4,7 +4,7 @@ A project to scrape and collect all Stardew Valley mods on the Chinese mod site 
 
 ## viewing data
 
-An interactive viewer can be seen in [mods.html](./mods.html), and the raw json data in [mods.json](./mods.json)
+An interactive viewer can be seen in [list.html](./list.html), and the raw json data in [mods.json](./mods.json)
 
 ## collecting data
 
