@@ -1,15 +1,11 @@
 # wanjiadongli-scrape
 
-To install dependencies:
+A project to scrape and collect all Stardew Valley mods on the Chinese mod site [wanjiadongli.com](https://wanjiadongli.com), as the vast mmajority of them are stolen.
 
-```bash
-bun install
-```
+## collecting data
 
-To run:
+install the requests python library and `python3 scrape.py`
 
-```bash
-bun run 
-```
+## formatting the data
 
-This project was created using `bun init` in bun v1.2.9. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+run the relevant shell scripts with jq on path if you desire, or `bun generate-page.ts` for the HTML viewer with a (usually inaccurate but humans can generally tell what mod it's talking about) option to google translate all/individual mod names.
