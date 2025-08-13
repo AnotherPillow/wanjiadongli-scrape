@@ -3,6 +3,7 @@ import mods from './mods.json' with { type: 'json' }
 
 html += `<!DOCTYPE HTML><html><body>`
 html += `<h1>Mods on WanjiaDongli.com</h1>`
+html += `<h2>Count: ${mods.length}</h2>`
 html += `<button onclick="i = 0; v = setInterval(async () => {if (i > ${mods.length}) return clearInterval(v); window['mod-translate-index-' + i].innerText = await window.translate(window['mod-translate-index-' + i].getAttribute('data-mod-name'));i++ }, 1000)">
     Translate All
 </button>`
