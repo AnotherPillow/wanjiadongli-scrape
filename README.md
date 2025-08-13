@@ -2,6 +2,10 @@
 
 A project to scrape and collect all Stardew Valley mods on the Chinese mod site [wanjiadongli.com](https://wanjiadongli.com), as the vast mmajority of them are stolen.
 
+## viewing data
+
+An interactive viewer can be seen in [mods.html](./mods.html), and the raw json data in [mods.json](./mods.json)
+
 ## collecting data
 
 install the requests python library and `python3 scrape.py`
